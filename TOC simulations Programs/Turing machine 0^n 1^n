@@ -1,0 +1,71 @@
+Automaton Simulator, v1.0
+turing {
+	alphabet {abcd*_}
+	state {
+		initial {yes}
+		coord {521 295}
+	}
+	state {
+		coord {824 299}
+	}
+	state {
+		coord {1159 304}
+	}
+	state {
+		coord {521 625}
+	}
+	state {
+		final {yes}
+		coord {844 634}
+	}
+	edge 0 1 {
+		transits {}
+		offset {0.5235987755982988}
+		direction {R}
+	}
+	edge 1 2 {
+		transits {}
+		offset {0.5235987755982988}
+		direction {R}
+	}
+	edge 2 0 {
+		transits {}
+		offset {0.7889308798105468}
+		direction {R}
+	}
+	edge 3 4 {
+		transits {}
+		offset {0.5235987755982988}
+		direction {R}
+	}
+	edge 0 3 {
+		transits {}
+		offset {0.5235987755982988}
+		direction {R}
+	}
+	edge 1 1 {
+		transits {}
+		offset {1.4360250423171654}
+		direction {R}
+	}
+	edge 1 1 {
+		transits {}
+		offset {-1.5441359784202986}
+		direction {R}
+	}
+	edge 2 2 {
+		transits {}
+		offset {1.1574659222555688}
+		direction {R}
+	}
+	edge 2 2 {
+		transits {}
+		offset {-1.2993629768597326}
+		direction {R}
+	}
+	edge 3 3 {
+		transits {}
+		offset {-1.4829401705652623}
+		direction {R}
+	}
+}

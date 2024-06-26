@@ -1,0 +1,27 @@
+Automaton Simulator, v1.0
+nfa {
+	alphabet {abcd*@}
+	state {
+		initial {yes}
+		coord {474 308}
+	}
+	state {
+		coord {774 310}
+	}
+	state {
+		final {yes}
+		coord {614 462}
+	}
+	edge 0 1 {
+		transits {a}
+		offset {0.5235987755982988}
+	}
+	edge 1 2 {
+		transits {b}
+		offset {0.5235987755982988}
+	}
+	edge 1 1 {
+		transits {ab}
+		offset {-0.4922112668395662}
+	}
+}
